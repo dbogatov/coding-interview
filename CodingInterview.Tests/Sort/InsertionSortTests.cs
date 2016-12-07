@@ -3,8 +3,9 @@
 // This file - InsertionSortTests.cs was created by Dmytro Bogatov (dmytro@dbogatov.org)
 // on 12/6/2016, 7:45 PM
 using NUnit.Framework;
+using CodingInterview.Sort;
 
-namespace CodingInterview.Tests
+namespace CodingInterview.Tests.Sort
 {
 	[TestFixture]
 	public class InsertionSortTests

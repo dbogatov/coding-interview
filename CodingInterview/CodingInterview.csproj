@@ -30,9 +30,13 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BubbleSort.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="InsertionSort.cs" />
+    <Compile Include="Sort\BubbleSort.cs" />
+    <Compile Include="Sort\InsertionSort.cs" />
+    <Compile Include="Sort\SelectionSort.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Sort\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

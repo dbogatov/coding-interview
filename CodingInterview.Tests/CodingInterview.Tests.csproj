@@ -31,8 +31,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BubleSortTests.cs" />
-    <Compile Include="InsertionSortTests.cs" />
+    <Compile Include="Sort\BubleSortTests.cs" />
+    <Compile Include="Sort\InsertionSortTests.cs" />
+    <Compile Include="Sort\SelectionSortTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -42,6 +43,9 @@
       <Project>{ACE1BD78-6DB9-4D3E-A33D-AE22FFF1C601}</Project>
       <Name>CodingInterview</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Sort\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
