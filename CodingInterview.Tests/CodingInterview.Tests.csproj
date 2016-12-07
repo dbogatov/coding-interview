@@ -32,6 +32,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BubleSortTests.cs" />
+    <Compile Include="InsertionSortTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
