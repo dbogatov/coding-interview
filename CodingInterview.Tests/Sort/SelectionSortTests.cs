@@ -2,10 +2,11 @@
 //
 // This file - SelectionSortTests.cs was created by Dmytro Bogatov (dmytro@dbogatov.org)
 // on 12/6/2016, 8:15 PM
+using System;
+using System.Linq;
 using NUnit.Framework;
-using CodingInterview.Sort;
 
-namespace CodingInterview.Tests.Sort
+namespace Sort
 {
 	[TestFixture]
 	public class SelectionSortTests
@@ -31,6 +32,18 @@ namespace CodingInterview.Tests.Sort
 			Assert.AreEqual(
 				new int[] { 5, 5, 6 },
 				SelectionSort.Sort(new int[] { 5, 6, 5 })
+			);
+
+			Random randNum = new Random();
+			var list = Enumerable.Repeat(0, 2016).Select(i => randNum.Next(-100, 100)).ToList();
+			var input = list.ToArray();
+			list.Sort();
+			var expected = list.ToArray();
+
+
+			Assert.AreEqual(
+				expected,
+				SelectionSort.Sort(input)
 			);
 		}
 	}

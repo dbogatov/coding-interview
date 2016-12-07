@@ -3,7 +3,7 @@
 // This file - BubleSort.cs was created by Dmytro Bogatov (dmytro@dbogatov.org)
 // on 12/6/2016, 7:26 PM
 
-namespace CodingInterview.Sort
+namespace Sort
 {
 	public class BubleSort
 	{

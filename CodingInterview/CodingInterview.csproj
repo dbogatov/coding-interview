@@ -34,6 +34,7 @@
     <Compile Include="Sort\BubbleSort.cs" />
     <Compile Include="Sort\InsertionSort.cs" />
     <Compile Include="Sort\SelectionSort.cs" />
+    <Compile Include="Sort\MergeSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Sort\" />

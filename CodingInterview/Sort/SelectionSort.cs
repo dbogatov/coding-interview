@@ -3,7 +3,7 @@
 // This file - SelectionSort.cs was created by Dmytro Bogatov (dmytro@dbogatov.org)
 // on 12/6/2016, 8:14 PM
 
-namespace CodingInterview.Sort
+namespace Sort
 {
 	public class SelectionSort
 	{

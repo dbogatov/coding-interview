@@ -34,6 +34,7 @@
     <Compile Include="Sort\BubleSortTests.cs" />
     <Compile Include="Sort\InsertionSortTests.cs" />
     <Compile Include="Sort\SelectionSortTests.cs" />
+    <Compile Include="Sort\MergeSortTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
