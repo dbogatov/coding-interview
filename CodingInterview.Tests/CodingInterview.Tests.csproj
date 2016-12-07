@@ -37,6 +37,7 @@
     <Compile Include="Sort\MergeSortTests.cs" />
     <Compile Include="Sort\QuickSortTests.cs" />
     <Compile Include="Sort\HeapSortTests.cs" />
+    <Compile Include="CrackingTheCodingInterview\DataStructures\StringCompressionTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -49,6 +50,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Sort\" />
+    <Folder Include="CrackingTheCodingInterview\" />
+    <Folder Include="CrackingTheCodingInterview\DataStructures\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

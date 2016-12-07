@@ -37,9 +37,12 @@
     <Compile Include="Sort\MergeSort.cs" />
     <Compile Include="Sort\QuickSort.cs" />
     <Compile Include="Sort\HeapSort.cs" />
+    <Compile Include="CrackingTheCodingInterview\DataStructures\StringCompression.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Sort\" />
+    <Folder Include="CrackingTheCodingInterview\" />
+    <Folder Include="CrackingTheCodingInterview\DataStructures\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
