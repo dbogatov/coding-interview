@@ -36,6 +36,7 @@
     <Compile Include="Sort\SelectionSortTests.cs" />
     <Compile Include="Sort\MergeSortTests.cs" />
     <Compile Include="Sort\QuickSortTests.cs" />
+    <Compile Include="Sort\HeapSortTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
