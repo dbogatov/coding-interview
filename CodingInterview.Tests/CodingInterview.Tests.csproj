@@ -38,9 +38,52 @@
     <Compile Include="Sort\QuickSortTests.cs" />
     <Compile Include="Sort\HeapSortTests.cs" />
     <Compile Include="CrackingTheCodingInterview\DataStructures\StringCompressionTests.cs" />
+    <Compile Include="SchoolOlympiads\ChildrenTests.cs" />
+    <Compile Include="SchoolOlympiads\HanoiTests.cs" />
+    <Compile Include="SchoolOlympiads\PortalsTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Resources\Portals\01.ans" />
+    <None Include="Resources\Portals\01.in" />
+    <None Include="Resources\Portals\02.ans" />
+    <None Include="Resources\Portals\02.in" />
+    <None Include="Resources\Portals\03.ans" />
+    <None Include="Resources\Portals\03.in" />
+    <None Include="Resources\Portals\04.ans" />
+    <None Include="Resources\Portals\04.in" />
+    <None Include="Resources\Portals\05.ans" />
+    <None Include="Resources\Portals\05.in" />
+    <None Include="Resources\Portals\06.ans" />
+    <None Include="Resources\Portals\06.in" />
+    <None Include="Resources\Portals\07.ans" />
+    <None Include="Resources\Portals\07.in" />
+    <None Include="Resources\Portals\08.ans" />
+    <None Include="Resources\Portals\08.in" />
+    <None Include="Resources\Portals\09.ans" />
+    <None Include="Resources\Portals\09.in" />
+    <None Include="Resources\Portals\10.ans" />
+    <None Include="Resources\Portals\10.in" />
+    <None Include="Resources\Portals\11.ans" />
+    <None Include="Resources\Portals\11.in" />
+    <None Include="Resources\Portals\12.ans" />
+    <None Include="Resources\Portals\12.in" />
+    <None Include="Resources\Portals\13.ans" />
+    <None Include="Resources\Portals\13.in" />
+    <None Include="Resources\Portals\14.ans" />
+    <None Include="Resources\Portals\14.in" />
+    <None Include="Resources\Portals\15.ans" />
+    <None Include="Resources\Portals\15.in" />
+    <None Include="Resources\Portals\16.ans" />
+    <None Include="Resources\Portals\16.in" />
+    <None Include="Resources\Portals\17.ans" />
+    <None Include="Resources\Portals\17.in" />
+    <None Include="Resources\Portals\18.ans" />
+    <None Include="Resources\Portals\18.in" />
+    <None Include="Resources\Portals\19.ans" />
+    <None Include="Resources\Portals\19.in" />
+    <None Include="Resources\Portals\20.ans" />
+    <None Include="Resources\Portals\20.in" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CodingInterview\CodingInterview.csproj">
@@ -52,6 +95,9 @@
     <Folder Include="Sort\" />
     <Folder Include="CrackingTheCodingInterview\" />
     <Folder Include="CrackingTheCodingInterview\DataStructures\" />
+    <Folder Include="SchoolOlympiads\" />
+    <Folder Include="Resources\" />
+    <Folder Include="Resources\Portals\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

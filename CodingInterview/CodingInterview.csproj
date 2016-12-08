@@ -38,11 +38,15 @@
     <Compile Include="Sort\QuickSort.cs" />
     <Compile Include="Sort\HeapSort.cs" />
     <Compile Include="CrackingTheCodingInterview\DataStructures\StringCompression.cs" />
+    <Compile Include="SchoolOlympiads\Children.cs" />
+    <Compile Include="SchoolOlympiads\Hanoi.cs" />
+    <Compile Include="SchoolOlympiads\Portals.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Sort\" />
     <Folder Include="CrackingTheCodingInterview\" />
     <Folder Include="CrackingTheCodingInterview\DataStructures\" />
+    <Folder Include="SchoolOlympiads\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
