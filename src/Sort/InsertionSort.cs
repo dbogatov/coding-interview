@@ -1,9 +1,4 @@
-﻿// 
-//
-// This file - InsertionSort.cs was created by Dmytro Bogatov (dmytro@dbogatov.org)
-// on 12/6/2016, 7:44 PM
-
-namespace Sort
+﻿namespace CodingInterview.Sort
 {
 	public class InsertionSort
 	{

@@ -1,9 +1,4 @@
-﻿// 
-//
-// This file - HeapSort.cs was created by Dmytro Bogatov (dmytro@dbogatov.org)
-// on 12/7/2016, 2:44 PM
-
-namespace Sort
+﻿namespace CodingInterview.Sort
 {
 	// Mostly borrowed from https://begeeben.wordpress.com/2012/08/21/heap-sort-in-c/
 	public class HeapSort

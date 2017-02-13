@@ -1,9 +1,4 @@
-﻿// 
-//
-// This file - SelectionSort.cs was created by Dmytro Bogatov (dmytro@dbogatov.org)
-// on 12/6/2016, 8:14 PM
-
-namespace Sort
+﻿namespace CodingInterview.Sort
 {
 	public class SelectionSort
 	{

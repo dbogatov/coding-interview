@@ -1,9 +1,4 @@
-﻿// 
-//
-// This file - QuickSort.cs was created by Dmytro Bogatov (dmytro@dbogatov.org)
-// on 12/7/2016, 1:05 AM
-
-namespace Sort
+﻿namespace CodingInterview.Sort
 {
 	public class QuickSort
 	{
