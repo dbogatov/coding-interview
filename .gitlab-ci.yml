@@ -1,0 +1,13 @@
+stages:
+- test
+
+test:
+  stage: test
+  image: microsoft/dotnet:1.1-sdk-msbuild
+  script:
+  - cd test
+  - dotnet restore
+  - dotnet test | tee tests.out
+  - "cat tests.out | grep 'Failed: 0.'"
+  tags:
+  - Docker
