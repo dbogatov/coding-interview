@@ -43,7 +43,7 @@
    </ItemGroup>
 
   <Target Name="AfterBuild">
-     <Copy SourceFiles="@(Resources)" DestinationFolder="$(OutputPath)/%(RecursiveDir)" ContinueOnError="true" />
+     <Copy SourceFiles="@(Resources)" DestinationFolder="$(OutputPath)/Resources/%(RecursiveDir)" ContinueOnError="true" />
   </Target>
 
 </Project>
