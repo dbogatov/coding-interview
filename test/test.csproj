@@ -38,4 +38,12 @@
 
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 
+  <ItemGroup>
+      <Resources Include="./Resources/**/*.*" /> 
+   </ItemGroup>
+
+  <Target Name="AfterBuild">
+     <Copy SourceFiles="@(Resources)" DestinationFolder="$(OutputPath)/%(RecursiveDir)" ContinueOnError="true" />
+  </Target>
+
 </Project>
